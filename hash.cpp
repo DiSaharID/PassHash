@@ -9,9 +9,8 @@ unsigned int strhashing(std::string pwd)
 }
 int main()
 {
-    setlocale(LC_ALL, "Russian");
     std::string pwd;
-    std::cout<<"Введите пароль:\n";
+    std::cout<<"Enter password:\n";
     int ch = 0;               // Переменная для символа.
     while (true)                // Создание бесконечного цикла.
     {
@@ -38,7 +37,7 @@ int main()
     }
     unsigned int hash_pwd = strhashing(pwd);
     if (hash_pwd == 769277631)
-        std::cout<<"\nПравильный пароль";
+        std::cout<<"\nCorrect password";
     else
-        std::cout<<"\nНеправильный пароль";
+        std::cout<<"\nIncorrect password";
 }
