@@ -37,8 +37,8 @@ int main()
         }
     }
     unsigned int hash_pwd = strhashing(pwd);
-    if (hash_pwd == 2405068788601216399)
-        std::cout<<"\nПравильный пароль "<<hash_pwd;
+    if (hash_pwd == 769277631)
+        std::cout<<"\nПравильный пароль";
     else
-        std::cout<<"\nНеправильный пароль "<<hash_pwd;
+        std::cout<<"\nНеправильный пароль";
 }
